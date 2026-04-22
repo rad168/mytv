@@ -78,8 +78,8 @@ http://服务器ip:30001/playlist.m3u?token=你的token
 
 ## PHP部署方案：
 1.将mytv.php上传到网站目录：
-https://raw.githubusercontent.com/rad168/mytv/refs/heads/main/php/mytv.php
-2.已支持获取订阅功能，访问: mytv.php?p=m3u 即可自动获取默认的频道订阅列表。
+https://raw.githubusercontent.com/rad168/mytv/refs/heads/main/php/mytv.php 
+2.已支持获取订阅功能，访问: mytv.php?p=m3u 即可自动获取默认的频道订阅列表。 
 3.也可代理任何其他hls/m3u8直播源，使用方法：mytv.php?url=http://xxxx.com/hls/xxx.m3u8
 
 
