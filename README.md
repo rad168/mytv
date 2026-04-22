@@ -57,6 +57,7 @@ https://raw.githubusercontent.com/rad168/mytv/refs/heads/main/nginx/notoken/ngin
 ## docker部署教程
 1.下载alpine系统版的nginx.conf到指定目录(默认为/root/mytv):
 ```
+mkdir -p /root/mytv && \
 curl -fsSL https://raw.githubusercontent.com/rad168/mytv/refs/heads/main/nginx/alpine/nginx.conf -o /root/mytv/nginx.conf
 ```
 2.一键部署命令：
