@@ -51,7 +51,7 @@ http://服务器ip:30001/playlist.m3u?token=你的token
 ```
 
 ## 无token版nginx.conf
-除非你有特殊需求，否则不推荐使用),支持ubuntu/debian系统:
+除非你有特殊需求，否则不推荐使用,支持Ubuntu/Debian系统:
 https://raw.githubusercontent.com/rad168/mytv/refs/heads/main/nginx/notoken/nginx.conf
 
 ## docker部署教程
