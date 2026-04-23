@@ -12,6 +12,7 @@ sudo apt install nginx
 curl -fsSL https://raw.githubusercontent.com/rad168/mytv/refs/heads/main/nginx/nginx.conf -o /etc/nginx/nginx.conf
 ```
 如需自定义token，请把nginx.conf第69行的"mytv123"修改为你自己的token。
+
 3.重启Nginx:
 ```
 sudo systemctl restart nginx
